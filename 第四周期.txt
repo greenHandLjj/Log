@@ -1,0 +1,59 @@
+﻿8-24 - 8-30
+
+主要任务：
+	移动端适配
+
+8-24:
+	移动端录播 （完成）
+	CSS 文档 （未完成）
+	window8 功能分模块实现（未完成）
+	刷了一天的剧。。。
+
+8-25:
+	移动端录播 （勉强完成）
+	CSS 文档 （未完成）
+	window8 功能分模块实现 （未完成）
+	
+8-26:
+	移动端录播 2阶段 （完成）
+	
+8-27:
+	移动端录播 3阶段 （完成不足）
+	rem 适配原理掌握 （完成）
+	
+8-28:
+	移动端录播 4阶段 （完成）
+	viewport 属性值掌握 （完成）
+
+		目前已知但还未熟练掌握的移动端适配方法：
+			viewport 缩放适配
+				以设计稿宽为基准值，如iphone6， 对应的设计稿宽为 750px
+				那么通过initial-scale 缩放，在各个设备上，实现css宽度都为750px
+				let devicePixel = 750;
+				let cssPixel = window.innerWidth;
+				let scale = cssPixel / devicePixel;
+				0.5为基准值，超出页面放大，反之减小
+
+			hotcss
+			js动态计算设置html font-size 公式（100 * （clientWidth / designWidth））
+			vw和vh
+				这个可以有两种，一种通篇使用，另一种配合rem使用
+				第一种少见，第二种使用方法如下：
+					html: iphone6为列， font-size: 13.333333333333334vw ;
+					body{ font-size: 12px; 防止字体继承过大 }
+					@media screen and (min-width: 750px;){
+						html{
+							font-size: 100px;
+						}
+					}
+
+8-29:
+	移动端之响应式布局 5阶段 （未完成）
+		最近心烦事多，放松一天
+	
+8-30:
+	移动端之响应式布局 5阶段 （初步了解移动端事件）
+
+
+到目前为止最懒散的一个周期
+

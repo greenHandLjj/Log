@@ -1,0 +1,40 @@
+9-21 - 9-27
+
+目标: vue 基本API熟练掌握, vue-cli掌握, 最少构建一个cli项目, git 复习,
+
+9-21:
+      cli 项目数据mock, 基本结构搭建
+      git 初步学习
+            git init 初始化本地仓库 --- 生成.git文件, 默认隐藏, ls -ah命令可查看
+            git add 添加文件至仓库
+            git commit -m 提交项目至仓库
+            git status 查看仓库状态 (告诉你那个文件被更改)
+            git diff 查看文件详细修改记录 (精确至删除了什么,添加了什么)
+            git log --pretty=oneline 每个更改以一行形式输出
+            git log 查看历史记录
+            git reflog 查看历史命令
+            版本回退:
+            git reset --hard HEAD^
+            git reset --hard <commit ID>
+            
+9-22:
+      vue-cli 练习
+
+9-23:
+      git branch 初步了解, git初级学习告捷
+
+9-24:
+      git使用
+      初中数学 有理数 +1
+      webSocket 初步掌握
+
+9-25:
+      遗漏...
+
+9-26:
+      遗漏...
+
+9-27:
+      遗漏...
+
+仅初步了解Vue - API,未能构建Vue-cli程序, 对不起, 我是个废物
